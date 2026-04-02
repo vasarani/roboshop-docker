@@ -82,7 +82,7 @@ services:
           - payment 
 
 
-network:
+networks:
     defaults:
         driver: bridge
         name: roboshop
