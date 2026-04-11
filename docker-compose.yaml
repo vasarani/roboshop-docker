@@ -4,7 +4,7 @@ services:
        image: vasaraniakshaya/mongodb:1.0.0
        container_name: mongodb
        volumes: 
-       - /:data/db
+       - mongodb:/data/db
 
     mysql:
        build: ./mysql
